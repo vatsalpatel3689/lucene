@@ -29,6 +29,9 @@ public class ScoreDoc {
    */
   public int doc;
 
+  /** an object than can be carried for this scoreDoc and represents it in some form */
+  public Object meta;
+
   /** Only set by {@link TopDocs#merge} */
   public int shardIndex;
 
